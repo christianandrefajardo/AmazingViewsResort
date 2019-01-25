@@ -1,0 +1,161 @@
+    
+    
+  body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+    box-shadow: 3px 0 5px -2px #888;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active, i.active {
+    background-color: #e01111;
+    color: white;
+  }
+  
+  li a:hover:not(.active), i:hover:not(.active) {
+    background-color: #e01111;
+    color: white;
+    transition: all 500ms;
+  }
+  
+ i{
+    font-size: 20px;
+    padding: 8px 16px;
+ }
+
+.bottom-icons{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.fa-facebook-f{
+    padding-left: 22px;
+}
+
+.fa-facebook-f:hover:not(.active){
+    background-color: #3b5999;
+}
+
+.fa-twitter:hover:not(.active){
+    background-color: #55acee;
+}
+
+.fa-instagram:hover:not(.active){
+    background-color: #e4405f;
+}
+
+.fa-envelope:hover:not(.active){
+    background-color: #dd4b39;
+}
+
+  /* CONTENT */
+.content{
+    margin-left:50px;
+    padding: 1px 16px;
+    height: auto;
+    text-align: center;
+}
+
+.hero{
+    height: 70vh;
+    margin: 5px 0px;
+    background-image: url("images/beach-bora-bora-clouds-753626.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.small, .medium{
+    height: 400px;
+    display: inline-block;
+    margin: 2.5px;
+    position: relative;
+}
+
+.small{
+    width: 29%;
+    border-radius: 5px;
+    letter-spacing: 5px;
+}
+
+.text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.medium{
+    width: 69%;
+}
+
+.medium h1, .medium h3{
+    opacity: 0;
+}
+
+.accomodation{
+    background-image: url("images/bed-bedroom-blanket-545012.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.event{
+    background-image: url("images/architecture-auditorium-blue-382297.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.pool{
+    background-image: url("images/blue-cool-cottage-207919.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.activities{
+    background-image: url("images/activity-adults-adventure-1246955.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
