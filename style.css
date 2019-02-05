@@ -141,7 +141,7 @@
 
 .accomodation{
     background-image: url("images/bed-bedroom-blanket-545012.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -149,7 +149,7 @@
 
 .event{
     background-image: url("images/architecture-auditorium-blue-382297.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -157,7 +157,7 @@
 
 .pool{
     background-image: url("images/blue-cool-cottage-207919.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
@@ -165,7 +165,7 @@
 
 .activities{
     background-image: url("images/activity-adults-adventure-1246955.jpg");
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
