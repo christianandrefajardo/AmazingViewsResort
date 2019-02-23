@@ -31,7 +31,7 @@
                   
             <div class="content">
 
-                <h1>Contact Us</h1>
+                <h1>CONTACT US</h1>
 
            </div>
 

@@ -83,8 +83,8 @@
     width:100%;
     height: 70vh;
     margin: 5px 0px;
-    background-image: url("images/beach-bora-bora-clouds-753626.jpg");
-    background-attachment: fixed;
+    background-image: url("images/1.jpg");
+    /*background-attachment: fixed;*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 3rem;
-    color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.9);
 }
 
 .small, .medium{
@@ -142,7 +142,7 @@
 }
 
 .accomodation{
-    background-image: url("images/bed-bedroom-blanket-545012.jpg");
+    background-image: url("images/accomodation-cover.jpg");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
@@ -150,7 +150,7 @@
 }
 
 .event{
-    background-image: url("images/architecture-auditorium-blue-382297.jpg");
+    background-image: url("images/events-cover.jpg");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
@@ -158,7 +158,7 @@
 }
 
 .pool{
-    background-image: url("images/blue-cool-cottage-207919.jpg");
+    background-image: url("images/pools-cover.jpg");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
@@ -166,7 +166,7 @@
 }
 
 .activities{
-    background-image: url("images/activity-adults-adventure-1246955.jpg");
+    background-image: url("images/activities-cover.jpg");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
