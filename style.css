@@ -173,6 +173,22 @@
     background-repeat: no-repeat; 
 }
 
+.gallery-pic{
+    width: 25%;
+    height: 350px;
+    border: 1px solid #ccc;
+}
+
+.gallery-pic:hover{
+    transform: scale(1.2);
+    transition: all 500ms;
+}
+
+#accomodations, #events, #pools, #activities{
+    margin: 50px 0px;
+    letter-spacing: 3px;
+}
+
 @media only screen and (max-width: 800px) {
    
     .small, .medium{
@@ -187,7 +203,9 @@
         border: 3px solid white;
     }
     
-
+    .gallery-pic{
+        width: 45%;
+    }
   }
 
   @media only screen and (max-width: 600px) {
@@ -198,6 +216,11 @@
 
     .hero-text{
         font-size: 1.5rem;
+    }
+
+    .gallery-pic{
+        width: 100%;
+        margin: 3px 0px;
     }
 
   }
