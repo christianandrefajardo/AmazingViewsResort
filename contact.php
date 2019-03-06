@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg"/>
     </head>
 
     <body>
@@ -32,6 +33,15 @@
             <div class="content">
 
                 <h1>CONTACT US</h1>
+                <div class="contact-panel">
+                    <div class="contact-left">
+                        <h4>Name: </h4>
+                        <h4>Contact Number: </h4>
+                        <h4>Email address: </h4>
+                        <h4>Message: </h4>
+                        <button value="Submit">Submit</button>
+                    </div>
+                </div>
 
            </div>
 
