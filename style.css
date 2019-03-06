@@ -226,18 +226,16 @@
   }
 
   @media only screen and (max-width: 600px) {
-   
-    .hero{
-        border: 5px solid white;
-    }
 
-    .hero-text{
-        font-size: 1.5rem;
+    .hero-logo{
+    height: 280px;
+    width: 280px;
     }
 
     .gallery-pic{
         width: 100%;
         margin: 3px 0px;
+        height: 250px;
     }
 
   }
