@@ -223,7 +223,7 @@
     .gallery-pic{
         width: 45%;
     }
-  }
+}
 
   @media only screen and (max-width: 600px) {
 
@@ -241,6 +241,6 @@
     #accomodations, #events, #pools, #activities{
     letter-spacing: 0px;
     font-size: 1.8rem;
-}
+    }
 
-  }
+}
