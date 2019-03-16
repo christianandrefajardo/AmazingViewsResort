@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <title>
-            Amazing Views Resort
+            Amazing View Resort
         </title>
 
         <link rel="stylesheet" href="style.css">
@@ -24,24 +24,23 @@
                 
                 <div class="bottom-icons">
                     <li><a href="https://www.facebook.com/amazingviewmountainresort/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                    <!-- <li><i class="fab fa-twitter"></i></li> -->
-                    <!-- <li><i class="fab fa-instagram"></i></li> -->
-                    <li><i class="far fa-envelope"></i></li>
+                 
+                    <li><a href="https://www.instagram.com/avmresort/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    
                 </div>
             </ul>
                   
             <div class="content">
 
-                <h1>CONTACT US</h1>
-                <div class="contact-panel">
-                    <div class="contact-left">
-                        <h4>Name: </h4>
-                        <h4>Contact Number: </h4>
-                        <h4>Email address: </h4>
-                        <h4>Message: </h4>
-                        <button value="Submit">Submit</button>
-                    </div>
-                </div>
+                <p>Contact us</p>
+
+                <form class="contact-form" action="contactform.php" method="post">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="text" name="email" placeholder="Your e-mail">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit" name="submit">Send Mail</button>
+                </form>
 
            </div>
 
