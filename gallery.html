@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg"/>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo2.png"/>
     </head>
 
     <body>

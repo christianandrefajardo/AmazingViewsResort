@@ -81,7 +81,7 @@
 
 .hero-logo{
     height: 400px;
-    width: 400px;
+    width: 500px;
 }
 
 .small, .medium{
@@ -167,9 +167,16 @@
 }
 
 .about-text{
-    font-size: 1.5rem; 
+    font-size: 1rem; 
     text-align: justify;
     margin-top: 5px;
+    width: 80%;
+}
+
+video{
+    height: 500px
+    width: 100%;
+    margin: 1rem 0;
 }
 
 .gallery-pic{
@@ -214,13 +221,17 @@
     .gallery-pic{
         width: 45%;
     }
+
+    video{
+        width: 100%;
+    }
 }
 
   @media only screen and (max-width: 600px) {
 
     .hero-logo{
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 300px;
     }
 
     .about-hero{
@@ -229,9 +240,7 @@
     margin: 5px 0px;
     }
 
-    .about-text{
-        font-size: 1.3rem; 
-    }
+
 
     .gallery-pic{
         width: 100%;
