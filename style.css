@@ -171,7 +171,7 @@
 .about-text{
     font-size: 1rem; 
     text-align: justify;
-    margin-top: 5px;
+    margin: 2rem 0;
     width: 80%;
 }
 
@@ -179,6 +179,23 @@ video{
     height: 500px
     width: 100%;
     margin: 1rem 0;
+}
+
+.testimonials{
+    padding: 3rem 0;
+}
+
+.testimonial{
+    border-top: 1px solid #ccc;
+    padding: 2rem 0;
+    width: 60%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.author{
+    margin-top: 1rem;
 }
 
 .gallery-pic{
@@ -193,17 +210,19 @@ video{
     transition: all 500ms;
 }
 
-#accomodations, #events, #pools, #activities{
+#accomodations, #events, #pools, #activities, #testimonials, #contact{
     margin: 50px 0px;
     letter-spacing: 3px;
 }
 
-.contact-panel{
-    height: 500px;
-    width: 98%;
-    border: solid 1px black;
-    padding: 1rem;
-    margin-top: 1rem;
+.contact{
+    
+    padding: : 5rem 0;
+    width: 100%;
+}
+
+.contact-list{
+    margin: 1rem 0;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -250,7 +269,7 @@ video{
         height: 250px;
     }
 
-    #accomodations, #events, #pools, #activities{
+    #accomodations, #events, #pools, #activities, #testimonials, #contact{
     letter-spacing: 0px;
     font-size: 1.8rem;
     }
